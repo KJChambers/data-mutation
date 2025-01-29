@@ -6,7 +6,11 @@ export default function Header() {
     return (
         <header id="main-header">
             <Link href="/">
-                <Image src={logo} alt="Mobile phone with post feeds on it" />
+                <Image
+					src={logo}
+					priority
+					alt="Mobile phone with post feeds on it"
+				/>
             </Link>
             <nav>
                 <ul>
